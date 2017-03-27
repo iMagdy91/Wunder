@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6FDEDB318488414C187E41 /* Pods_Wunder_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE507CF60F3817036D5BA156 /* Pods_Wunder_Challenge.framework */; };
 		79CBF1661E87D9D4009C9194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1651E87D9D4009C9194 /* AppDelegate.swift */; };
-		79CBF1681E87D9D4009C9194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1671E87D9D4009C9194 /* ViewController.swift */; };
 		79CBF16B1E87D9D4009C9194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CBF1691E87D9D4009C9194 /* Main.storyboard */; };
 		79CBF16D1E87D9D5009C9194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CBF16C1E87D9D5009C9194 /* Assets.xcassets */; };
 		79CBF1701E87D9D5009C9194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CBF16E1E87D9D5009C9194 /* LaunchScreen.storyboard */; };
+		79CBF17E1E87E5C8009C9194 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF17D1E87E5C8009C9194 /* NetworkManager.swift */; };
+		79CBF1851E87EE1C009C9194 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1841E87EE1C009C9194 /* Constants.swift */; };
+		79CBF18A1E87F44C009C9194 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1891E87F44C009C9194 /* BaseViewController.swift */; };
+		79CBF18C1E87F46A009C9194 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF18B1E87F46A009C9194 /* CarsViewController.swift */; };
+		79CBF18F1E87F55A009C9194 /* BaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF18E1E87F55A009C9194 /* BaseStore.swift */; };
+		79CBF1921E87F5F5009C9194 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1911E87F5F5009C9194 /* BaseViewModel.swift */; };
+		79CBF1941E87F62A009C9194 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1931E87F62A009C9194 /* CarStore.swift */; };
+		79CBF1971E880F92009C9194 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF1961E880F92009C9194 /* CarModel.swift */; };
+		79E9C3E91E884B6A00707BAF /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9C3E81E884B6A00707BAF /* CarViewModel.swift */; };
+		79E9C3EC1E8859FF00707BAF /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9C3EB1E8859FF00707BAF /* CarTableViewCell.swift */; };
+		79E9C3EE1E88614000707BAF /* CarMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9C3ED1E88614000707BAF /* CarMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35D6DABF6C05EE78FD1868D8 /* Pods-Wunder_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wunder_Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wunder_Challenge/Pods-Wunder_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		79CBF1621E87D9D4009C9194 /* Wunder_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunder_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CBF1651E87D9D4009C9194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79CBF1671E87D9D4009C9194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79CBF16A1E87D9D4009C9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79CBF16C1E87D9D5009C9194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79CBF16F1E87D9D5009C9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79CBF1711E87D9D6009C9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CBF17D1E87E5C8009C9194 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		79CBF1841E87EE1C009C9194 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		79CBF1891E87F44C009C9194 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		79CBF18B1E87F46A009C9194 /* CarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		79CBF18E1E87F55A009C9194 /* BaseStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStore.swift; sourceTree = "<group>"; };
+		79CBF1911E87F5F5009C9194 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		79CBF1931E87F62A009C9194 /* CarStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
+		79CBF1961E880F92009C9194 /* CarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		79E9C3E81E884B6A00707BAF /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		79E9C3EB1E8859FF00707BAF /* CarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		79E9C3ED1E88614000707BAF /* CarMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarMapViewController.swift; sourceTree = "<group>"; };
+		7FF85A9944AFE63A7C4451AB /* Pods-Wunder_Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wunder_Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wunder_Challenge/Pods-Wunder_Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		DE507CF60F3817036D5BA156 /* Pods_Wunder_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wunder_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6FDEDB318488414C187E41 /* Pods_Wunder_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				79CBF1641E87D9D4009C9194 /* Wunder_Challenge */,
 				79CBF1631E87D9D4009C9194 /* Products */,
+				8BE2D89B78F7575B1AB18754 /* Pods */,
+				9A49C020A032B54438C43D02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,121 @@
 		79CBF1641E87D9D4009C9194 /* Wunder_Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				79CBF1651E87D9D4009C9194 /* AppDelegate.swift */,
-				79CBF1671E87D9D4009C9194 /* ViewController.swift */,
+				79CBF1951E880F77009C9194 /* DTOs */,
+				79CBF1901E87F5E4009C9194 /* View Models */,
+				79CBF18D1E87F4FC009C9194 /* Business */,
+				79CBF1831E87EE02009C9194 /* Common */,
+				79CBF17C1E87E5A1009C9194 /* Supporting Files */,
+				79CBF17A1E87E590009C9194 /* Presentation */,
+				79CBF1791E87E589009C9194 /* Network */,
+			);
+			path = Wunder_Challenge;
+			sourceTree = "<group>";
+		};
+		79CBF1791E87E589009C9194 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF17D1E87E5C8009C9194 /* NetworkManager.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		79CBF17A1E87E590009C9194 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				79E9C3EA1E8859E600707BAF /* Custom Views */,
+				79CBF1881E87F352009C9194 /* View Controllers */,
+				79CBF17B1E87E597009C9194 /* Storyboard */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		79CBF17B1E87E597009C9194 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				79CBF1691E87D9D4009C9194 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		79CBF17C1E87E5A1009C9194 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF1651E87D9D4009C9194 /* AppDelegate.swift */,
 				79CBF16C1E87D9D5009C9194 /* Assets.xcassets */,
 				79CBF16E1E87D9D5009C9194 /* LaunchScreen.storyboard */,
 				79CBF1711E87D9D6009C9194 /* Info.plist */,
 			);
-			path = Wunder_Challenge;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79CBF1831E87EE02009C9194 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF1841E87EE1C009C9194 /* Constants.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		79CBF1881E87F352009C9194 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF1891E87F44C009C9194 /* BaseViewController.swift */,
+				79CBF18B1E87F46A009C9194 /* CarsViewController.swift */,
+				79E9C3ED1E88614000707BAF /* CarMapViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		79CBF18D1E87F4FC009C9194 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF18E1E87F55A009C9194 /* BaseStore.swift */,
+				79CBF1931E87F62A009C9194 /* CarStore.swift */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		79CBF1901E87F5E4009C9194 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF1911E87F5F5009C9194 /* BaseViewModel.swift */,
+				79E9C3E81E884B6A00707BAF /* CarViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		79CBF1951E880F77009C9194 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF1961E880F92009C9194 /* CarModel.swift */,
+			);
+			name = DTOs;
+			sourceTree = "<group>";
+		};
+		79E9C3EA1E8859E600707BAF /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				79E9C3EB1E8859FF00707BAF /* CarTableViewCell.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8BE2D89B78F7575B1AB18754 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D6DABF6C05EE78FD1868D8 /* Pods-Wunder_Challenge.debug.xcconfig */,
+				7FF85A9944AFE63A7C4451AB /* Pods-Wunder_Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A49C020A032B54438C43D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE507CF60F3817036D5BA156 /* Pods_Wunder_Challenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79CBF1741E87D9D6009C9194 /* Build configuration list for PBXNativeTarget "Wunder_Challenge" */;
 			buildPhases = (
+				B02278FA792E299534476E74 /* [CP] Check Pods Manifest.lock */,
 				79CBF15E1E87D9D4009C9194 /* Sources */,
 				79CBF15F1E87D9D4009C9194 /* Frameworks */,
 				79CBF1601E87D9D4009C9194 /* Resources */,
+				574E7B6A2EE0CB5937B97B86 /* [CP] Embed Pods Frameworks */,
+				596939F8EF1492F52C3B8D64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +233,7 @@
 				TargetAttributes = {
 					79CBF1611E87D9D4009C9194 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RBZ2UQ2323;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +269,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		574E7B6A2EE0CB5937B97B86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wunder_Challenge/Pods-Wunder_Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596939F8EF1492F52C3B8D64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wunder_Challenge/Pods-Wunder_Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02278FA792E299534476E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79CBF15E1E87D9D4009C9194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79CBF1681E87D9D4009C9194 /* ViewController.swift in Sources */,
+				79CBF17E1E87E5C8009C9194 /* NetworkManager.swift in Sources */,
+				79CBF18A1E87F44C009C9194 /* BaseViewController.swift in Sources */,
+				79CBF18F1E87F55A009C9194 /* BaseStore.swift in Sources */,
+				79CBF1921E87F5F5009C9194 /* BaseViewModel.swift in Sources */,
+				79E9C3EE1E88614000707BAF /* CarMapViewController.swift in Sources */,
+				79CBF1941E87F62A009C9194 /* CarStore.swift in Sources */,
+				79CBF1971E880F92009C9194 /* CarModel.swift in Sources */,
+				79CBF18C1E87F46A009C9194 /* CarsViewController.swift in Sources */,
+				79E9C3E91E884B6A00707BAF /* CarViewModel.swift in Sources */,
 				79CBF1661E87D9D4009C9194 /* AppDelegate.swift in Sources */,
+				79E9C3EC1E8859FF00707BAF /* CarTableViewCell.swift in Sources */,
+				79CBF1851E87EE1C009C9194 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +454,12 @@
 		};
 		79CBF1751E87D9D6009C9194 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D6DABF6C05EE78FD1868D8 /* Pods-Wunder_Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBZ2UQ2323;
 				INFOPLIST_FILE = Wunder_Challenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Wunder-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +469,12 @@
 		};
 		79CBF1761E87D9D6009C9194 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF85A9944AFE63A7C4451AB /* Pods-Wunder_Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBZ2UQ2323;
 				INFOPLIST_FILE = Wunder_Challenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Wunder-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +501,7 @@
 				79CBF1761E87D9D6009C9194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
